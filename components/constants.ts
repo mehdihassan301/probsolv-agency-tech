@@ -8,7 +8,7 @@ export const serviceDetails: Service[] = [
     title: 'Web Development',
     description: 'Crafting high-performance, visually stunning websites that drive business growth.',
     icon: WebDevIcon,
-    heroImage: 'https://picsum.photos/seed/webdev/1200/600',
+    heroImage: '/images/services/web-dev-hero.jpg',
     overview: 'Our web development service focuses on creating responsive, scalable, and secure websites tailored to your brand. From corporate sites to complex e-commerce platforms, we build digital experiences that engage users and deliver results.',
     process: [
       { step: 'Discovery & Strategy', description: 'We start by understanding your goals, target audience, and technical requirements to create a comprehensive project roadmap.' },
@@ -31,7 +31,7 @@ export const serviceDetails: Service[] = [
     title: 'Vibe Coding Apps',
     description: 'Unique, aesthetic-driven app development that resonates with your brand\'s core identity.',
     icon: VibeCodeIcon,
-    heroImage: 'https://picsum.photos/seed/vibecode/1200/600',
+    heroImage: '/images/services/vibe-coded-hero.jpg',
     overview: 'Vibe Coding Apps go beyond functionality. We focus on creating an emotional connection with users through bespoke design, micro-interactions, and a cohesive brand experience. These are apps that feel as good as they look.',
     process: [
       { step: 'Vibe Discovery', description: 'We dive deep into your brand\'s ethos, aesthetics, and target audience to define the core "vibe".' },
@@ -54,7 +54,7 @@ export const serviceDetails: Service[] = [
     title: 'AI Business Automations',
     description: 'Integrating intelligent AI to automate workflows, support, and business processes.',
     icon: AIIcon,
-    heroImage: 'https://picsum.photos/seed/aiauto/1200/600',
+    heroImage: '/images/services/ai-automations-hero.jpg',
     overview: 'Leverage the power of Artificial Intelligence to streamline your operations. We develop and integrate custom AI solutions, including chatbots, internal assistants, and automated support systems, to increase efficiency and reduce costs.',
     process: [
       { step: 'Process Analysis', description: 'We identify key areas in your business that are ripe for automation and will deliver the highest ROI.' },
@@ -79,24 +79,24 @@ export const portfolioItems: PortfolioItem[] = [
         id: 'agency-website',
         title: 'Agency Website', 
         category: 'Web Development', 
-        image: 'https://picsum.photos/seed/port1/600/400',
-        heroImage: 'https://picsum.photos/seed/port1-hero/1200/600',
+        image: '/images/portfolio/agency-website/thumbnail.jpg',
+        heroImage: '/images/portfolio/agency-website/hero.jpg',
         challenge: "A creative agency needed a new website to reflect their cutting-edge brand identity and showcase their portfolio in a visually stunning way. Their old site was slow, not mobile-friendly, and difficult to update.",
         solution: [
             {
                 title: "Discovery & Strategy",
                 description: "We started with a deep-dive into their brand, target audience, and competitors. This allowed us to define a clear strategy for a user-centric design that highlighted their unique value proposition.",
-                image: 'https://picsum.photos/seed/port1-sol1/800/600'
+                image: '/images/portfolio/agency-website/solution-1.jpg'
             },
             {
                 title: "Vibe-Coded Frontend",
                 description: "Using modern frameworks like React and GSAP for animations, we built a highly interactive and aesthetically pleasing frontend. The 'vibe' was crucial, so we focused on micro-interactions and smooth page transitions to create a premium feel.",
-                image: 'https://picsum.photos/seed/port1-sol2/800/600'
+                image: '/images/portfolio/agency-website/solution-2.jpg'
             },
             {
                 title: "Headless CMS Integration",
                 description: "To make content updates seamless, we integrated a headless CMS (Contentful). This gave the agency's team the power to update their portfolio and blog without needing any technical help, ensuring the site stays fresh.",
-                image: 'https://picsum.photos/seed/port1-sol3/800/600'
+                image: '/images/portfolio/agency-website/solution-3.jpg'
             }
         ],
         results: [
@@ -110,24 +110,24 @@ export const portfolioItems: PortfolioItem[] = [
         id: 'ai-automation-setup',
         title: 'AI Automation Setup', 
         category: 'AI Automations', 
-        image: 'https://picsum.photos/seed/port2/600/400',
-        heroImage: 'https://picsum.photos/seed/port2-hero/1200/600',
+        image: '/images/portfolio/ai-automation/thumbnail.jpg',
+        heroImage: '/images/portfolio/ai-automation/hero.jpg',
         challenge: "A rapidly growing e-commerce brand was struggling with customer support volume. Their team was overwhelmed with repetitive questions, leading to slow response times and customer dissatisfaction.",
         solution: [
             {
                 title: "Process Analysis",
                 description: "We analyzed over 5,000 support tickets to identify the most common customer queries. We found that 80% of questions were related to order tracking, returns, and product information.",
-                image: 'https://picsum.photos/seed/port2-sol1/800/600'
+                image: '/images/portfolio/ai-automation/solution-1.jpg'
             },
             {
                 title: "Custom Chatbot Development",
                 description: "We built a custom AI chatbot using Google's Dialogflow and integrated it with their Shopify store data. The chatbot could instantly answer common questions and provide real-time order status updates.",
-                image: 'https://picsum.photos/seed/port2-sol2/800/600'
+                image: '/images/portfolio/ai-automation/solution-2.jpg'
             },
             {
                 title: "Seamless Human Handoff",
                 description: "For complex issues, the chatbot was designed to seamlessly escalate the conversation to a human agent, providing the agent with the full conversation history for context.",
-                image: 'https://picsum.photos/seed/port2-sol3/800/600'
+                image: '/images/portfolio/ai-automation/solution-3.jpg'
             }
         ],
         results: [
@@ -141,24 +141,24 @@ export const portfolioItems: PortfolioItem[] = [
         id: 'saas-dashboard',
         title: 'SaaS Dashboard', 
         category: 'Vibe Coding Apps', 
-        image: 'https://picsum.photos/seed/port3/600/400',
-        heroImage: 'https://picsum.photos/seed/port3-hero/1200/600',
+        image: '/images/portfolio/saas-dashboard/thumbnail.jpg',
+        heroImage: '/images/portfolio/saas-dashboard/hero.jpg',
         challenge: "A B2B SaaS startup had a powerful backend but their user dashboard was cluttered, unintuitive, and visually dated. This was leading to poor user adoption and high churn rates.",
         solution: [
              {
                 title: "User-Centric Redesign",
                 description: "We conducted user interviews and workflow analysis to completely rethink the information architecture. The new design prioritized key user actions and presented complex data in a clean, digestible format.",
-                image: 'https://picsum.photos/seed/port3-sol1/800/600'
+                image: '/images/portfolio/saas-dashboard/solution-1.jpg'
             },
             {
                 title: "Interactive Data Visualizations",
                 description: "Using D3.js, we created beautiful and interactive charts and graphs that allowed users to explore their data in a more engaging way. This turned a static dashboard into a powerful analytics tool.",
-                image: 'https://picsum.photos/seed/port3-sol2/800/600'
+                image: '/images/portfolio/saas-dashboard/solution-2.jpg'
             },
             {
                 title: "Component-Based Frontend",
                 description: "We rebuilt the entire frontend using React and a component-based design system. This not only improved performance but also made the dashboard more scalable and easier to maintain.",
-                image: 'https://picsum.photos/seed/port3-sol3/800/600'
+                image: '/images/portfolio/saas-dashboard/solution-3.jpg'
             }
         ],
         results: [
@@ -172,24 +172,24 @@ export const portfolioItems: PortfolioItem[] = [
         id: 'mobile-web-app',
         title: 'Mobile Web App', 
         category: 'Vibe Coding Apps', 
-        image: 'https://picsum.photos/seed/port4/600/400',
-        heroImage: 'https://picsum.photos/seed/port4-hero/1200/600',
+        image: '/images/portfolio/mobile-web-app/thumbnail.jpg',
+        heroImage: '/images/portfolio/mobile-web-app/hero.jpg',
         challenge: "A lifestyle brand wanted to create a mobile app for their community, but lacked the budget and timeline for native iOS and Android development. They needed a solution that was fast to build and accessible on all devices.",
         solution: [
             {
                 title: "Progressive Web App (PWA)",
                 description: "We proposed a PWA to deliver a native-app-like experience on the web. This allowed for a single codebase, faster deployment, and discoverability through search engines.",
-                image: 'https://picsum.photos/seed/port4-sol1/800/600'
+                image: '/images/portfolio/mobile-web-app/solution-1.jpg'
             },
             {
                 title: "Offline Functionality",
                 description: "Using service workers, we enabled core features of the app to work offline. Users could browse content and access their profiles even without a stable internet connection.",
-                image: 'https://picsum.photos/seed/port4-sol2/800/600'
+                image: '/images/portfolio/mobile-web-app/solution-2.jpg'
             },
             {
                 title: "Aesthetic-Driven UI",
                 description: "The UI was designed to match the brand's 'vibe'—minimalist, elegant, and calming. We used subtle animations and a thoughtful color palette to create a premium and engaging user experience.",
-                image: 'https://picsum.photos/seed/port4-sol3/800/600'
+                image: '/images/portfolio/mobile-web-app/solution-3.jpg'
             }
         ],
         results: [
@@ -203,24 +203,24 @@ export const portfolioItems: PortfolioItem[] = [
         id: 'branding-ui-work',
         title: 'Branding + UI Work', 
         category: 'Web Development', 
-        image: 'https://picsum.photos/seed/port5/600/400',
-        heroImage: 'https://picsum.photos/seed/port5-hero/1200/600',
+        image: '/images/portfolio/branding-ui/thumbnail.jpg',
+        heroImage: '/images/portfolio/branding-ui/hero.jpg',
         challenge: "A new fintech startup needed a strong brand identity and a trustworthy user interface to attract its first customers. They needed to look polished and credible from day one.",
         solution: [
             {
                 title: "Brand Strategy Workshop",
                 description: "We facilitated a workshop to define their brand's mission, values, and personality. This formed the foundation for the visual identity, including the logo, color scheme, and typography.",
-                image: 'https://picsum.photos/seed/port5-sol1/800/600'
+                image: '/images/portfolio/branding-ui/solution-1.jpg'
             },
             {
                 title: "UI Kit & Design System",
                 description: "We designed a comprehensive UI kit in Figma, creating a scalable design system with reusable components. This ensured consistency across all their digital touchpoints and sped up the development process.",
-                image: 'https://picsum.photos/seed/port5-sol2/800/600'
+                image: '/images/portfolio/branding-ui/solution-2.jpg'
             },
             {
                 title: "High-Fidelity Prototypes",
                 description: "We delivered interactive, high-fidelity prototypes that allowed the startup to test user flows and gather feedback before writing a single line of code. This was crucial for securing early-stage investor funding.",
-                image: 'https://picsum.photos/seed/port5-sol3/800/600'
+                image: '/images/portfolio/branding-ui/solution-3.jpg'
             }
         ],
         results: [
@@ -234,24 +234,24 @@ export const portfolioItems: PortfolioItem[] = [
         id: 'ecommerce-platform',
         title: 'E-commerce Platform', 
         category: 'Web Development', 
-        image: 'https://picsum.photos/seed/port6/600/400',
-        heroImage: 'https://picsum.photos/seed/port6-hero/1200/600',
+        image: '/images/portfolio/ecommerce-platform/thumbnail.jpg',
+        heroImage: '/images/portfolio/ecommerce-platform/hero.jpg',
         challenge: "A specialty coffee retailer's online store was built on a restrictive, template-based platform that couldn't keep up with their growth. They needed a custom solution to improve performance and user experience.",
         solution: [
              {
                 title: "Headless Commerce Architecture",
                 description: "We migrated them to a headless architecture using Shopify Plus for the backend and a custom Next.js frontend. This provided blazing-fast performance and complete design freedom.",
-                image: 'https://picsum.photos/seed/port6-sol1/800/600'
+                image: '/images/portfolio/ecommerce-platform/solution-1.jpg'
             },
             {
                 title: "Subscription Builder",
                 description: "We developed a custom subscription builder that allowed customers to create their own personalized coffee subscription boxes. This created a new recurring revenue stream for the business.",
-                image: 'https://picsum.photos/seed/port6-sol2/800/600'
+                image: '/images/portfolio/ecommerce-platform/solution-2.jpg'
             },
             {
                 title: "Performance Optimization",
                 description: "We implemented static site generation (SSG) for product pages and optimized all images, resulting in near-instant page loads and a perfect Google Lighthouse score.",
-                image: 'https://picsum.photos/seed/port6-sol3/800/600'
+                image: '/images/portfolio/ecommerce-platform/solution-3.jpg'
             }
         ],
         results: [
@@ -277,7 +277,7 @@ export const blogPosts: Post[] = [
         author: 'Alex Chen',
         date: 'October 26, 2023',
         category: 'Vibe Coding Apps',
-        image: 'https://picsum.photos/seed/blog1/1200/600',
+        image: '/images/blog/why-vibe-matters.jpg',
         excerpt: 'In a saturated app market, functionality is just the ticket to entry. The real differentiator? Vibe. We explore how aesthetic-driven design and micro-interactions create memorable experiences that build lasting brand loyalty.',
         content: `
             <p class="mb-6">In today's digital landscape, users have endless choices. An app that simply "works" is no longer enough. To capture attention and retain users, you need to create an experience that resonates on an emotional level. This is where "vibe" comes in.</p>
@@ -298,7 +298,7 @@ export const blogPosts: Post[] = [
         author: 'Samantha Riley',
         date: 'October 22, 2023',
         category: 'AI Automations',
-        image: 'https://picsum.photos/seed/blog2/1200/600',
+        image: '/images/blog/ai-is-eating-the-world.jpg',
         excerpt: 'Repetitive tasks are draining your team\'s potential. We break down how custom AI assistants and automated workflows can handle the grunt work, freeing up your human talent to focus on innovation and growth.',
         content: `
             <p class="mb-6">Imagine an employee who never sleeps, never makes a mistake, and handles thousands of customer queries simultaneously. This isn't science fiction; it's the reality of AI-powered business automation. Companies that leverage AI are not just becoming more efficient; they're fundamentally redesigning what's possible.</p>
@@ -319,7 +319,7 @@ export const blogPosts: Post[] = [
         author: 'David Chen',
         date: 'October 18, 2023',
         category: 'Web Development',
-        image: 'https://picsum.photos/seed/blog3/1200/600',
+        image: '/images/blog/future-of-web.jpg',
         excerpt: 'The web is evolving faster than ever. From server-side rendering to the rise of edge computing, we cover the essential web development trends that will define the next year and how to leverage them for a faster, more secure online presence.',
         content: `
             <p class="mb-6">A website is no longer a static brochure; it's a dynamic, interactive platform that serves as the core of your digital presence. To stay competitive, you need to be aware of the technological shifts that are shaping the future of the web. Here are five trends we're building our projects around.</p>
