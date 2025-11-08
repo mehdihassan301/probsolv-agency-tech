@@ -77,7 +77,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, setPage, theme, setTheme }
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <Logo setPage={setPage} isScrolled={isScrolled} />
+              <Logo setPage={setPage} />
             </div>
             <div className="hidden md:flex items-center space-x-2">
               {navItems.map(item => <NavLink key={item} pageName={item} currentPage={currentPage} setPage={setPage} />)}
