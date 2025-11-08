@@ -56,7 +56,7 @@ const HomePage: React.FC<HomePageProps> = ({ setPage }) => {
           <ParticleBackground type="network" />
         </div>
         <div className="relative z-10 max-w-4xl animate-fade-in-up">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-text_light dark:text-white leading-tight drop-shadow-lg animate-pulse-text" style={{ animationDuration: '4s' }}>
+              <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-text_light dark:text-white leading-tight drop-shadow-lg animate-pulse-text" style={{ animationDuration: '4s' }}>
             ProbSolv Tech Agency
           </h1>
           <p className="mt-4 text-base sm:text-lg md:text-2xl text-primary dark:text-accent font-medium tracking-wider drop-shadow-lg">
