@@ -117,7 +117,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="bg-bg_light dark:bg-bg_dark text-text_light dark:text-text_dark min-h-screen">
+     <div className="font-sans bg-bg_light dark:bg-bg_dark text-text_light dark:text-text_dark min-h-screen">
       <LoadingSpinner isLoading={isLoading} />
       <AnimatedOrbs theme={theme} />
       <div className="relative z-10">
